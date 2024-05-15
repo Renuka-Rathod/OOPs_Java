@@ -1,0 +1,17 @@
+Note:revise  all from theory session.
+
+
+Create Book class  (in code package) with data member bookId,name,author,price
+.Add both default and parameter constructor.Write getters and setters for all data members.Write Display Method for displaying all data members.
+Create TestBook class(in tester package)
+1:Create 2 objects of Book class by invoking default and parameter constr and display details of book.
+
+2:create Library management application with following menu
+ Menu 1:Show All Books
+ Menu 2:Add New Book
+ Menu 3:Update Book
+ Menu 4:Delete Book
+ Menu 5:edit name 
+ Menu 6:edit Author
+ Menu 7:edit price
+
