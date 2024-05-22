@@ -1,7 +1,7 @@
 Lambda expressions
 
-It's derived from lambda caculus. 
-It was a big change in calculus world , which gave tremedous ease in maths
+It's derived from lambda calculus. 
+It was a big change in calculus world , which gave tremendous ease in maths
 
 Now the same concept is being used in programming languages.
 1st language to use lambda 
@@ -13,7 +13,7 @@ Finally in java also(Java SE 8 onwards)
 Background
 
 Java is an object-oriented language. With the exception of primitive data types, everything in Java is an object. Even an array is an Object. Every class creates instances that are objects. There is no way of defining just a function / method which stays in Java all by itself. There is no way of passing a method as argument or returning a method body for that instance.
-i.e passing the behaviour was not possible till java 8.
+i.e. passing the behaviour was not possible till java 8.
 
 It was slightly possible using anonymous inner classes --but that still required us to write a class !
 
@@ -35,7 +35,7 @@ Following are some examples of Lambda expressions.
 
 1.(int a, int b) -> {  return a + b; }
 OR can be reduced to 
-(int a, int b) ->  a + b
+(int a, int b) ->  a + b8
 OR further can be reduced to
 (a,b) -> a+b
  
@@ -156,10 +156,11 @@ Main Differences between Lambda Expression and Anonymous class
 
 1. One key difference between using Anonymous class and Lambda expression is the use of "this" keyword. 
 
-For anonymous class ‘this’ keyword resolves to anonymous class, whereas for lambda expression ‘this’ keyword resolves to enclosing class where lambda is written.
+For anonymous class  this  keyword resolves to anonymous class, whereas for lambda expression  this  keyword resolves to enclosing class where lambda is written.
 
 2. Another difference between lambda expression and anonymous class is in the way these two are compiled. 
 Java compiler compiles lambda expressions and convert them into private method of the class. 
+
 
 
 

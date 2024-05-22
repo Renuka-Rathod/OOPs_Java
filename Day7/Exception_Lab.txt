@@ -1,0 +1,35 @@
+Revise All From Theory
+
+
+Create Java application for customer management system.
+
+1.1 Customer : id(int) name(string),email(string),password(string),registrationAmount(double),dob(Date),type (ServicePlan : enum)
+ServicePlan : SILVER,GOLD,DIAMOND,PLATINUM
+
+
+customer id should be system generated , using auto increment.
+
+1.2 
+
+Validation Rules 
+email must contain "@" & should be from ".com" or ".org"  domain
+password must be min 4 max 10 chars long. 
+
+
+Centralized exception handling is expected.
+
+1.4 Use suitable data structure for storing customer details.
+Create Array Of customers.Create Menu driven Program
+using following menu(Must be dynamic in nature)
+
+
+Options
+1. Customer registration
+Accept n Validate customer details.
+Iff it's valid , store it  , o.w display error message via custom exception
+
+2. Display details of all registered customers
+(for-each)
+
+
+3. Exit

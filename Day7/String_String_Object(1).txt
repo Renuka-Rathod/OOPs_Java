@@ -1,0 +1,24 @@
+String Literal:
+A string literal in Java is a sequence of characters enclosed in double quotation marks. When you declare a string using a literal, Java automatically creates a String object to represent that literal. For example:
+
+java
+Copy code
+String literalString = "Hello, World!";
+In this case, "Hello, World!" is a string literal, and Java creates a String object with the value "Hello, World!".
+
+String literals are stored in the string pool, which is a pool of strings maintained by the Java Virtual Machine (JVM). When you declare multiple string literals with the same value, they can refer to the same String object in the pool, which helps in conserving memory.
+
+String Object:
+You can also create a String object explicitly using the new keyword. For example:
+
+java
+Copy code
+String objectString = new String("Hello, World!");
+In this case, a new String object is created, even though the content is the same as the string literal example. The new keyword explicitly creates a new instance of the String class.
+
+Differences:
+Memory Allocation: String literals are stored in the string pool, and Java tries to reuse existing objects if they have the same value. String objects created with the new keyword, on the other hand, always result in a new object being created.
+
+Performance: String literals are generally more efficient in terms of memory and performance because of the string pool mechanism. String objects created with new may consume more memory and are less efficient due to the creation of separate objects.
+
+Immutable Nature: Both string literals and string objects are immutable in Java. Once a string object is created, its value cannot be changed. Any operation that appears to modify the string actually creates a new string.
