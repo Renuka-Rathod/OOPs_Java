@@ -10,6 +10,7 @@ public class MyMath {
 	// protected:accessible outside package but inside sub-type
 	// public:accessible everywhere
 
+	@SuppressWarnings("unused")
 	private void impFunction() {
 		System.out.println("-----imp BL-----this is class specific");
 

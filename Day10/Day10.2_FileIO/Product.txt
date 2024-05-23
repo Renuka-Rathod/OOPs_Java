@@ -1,0 +1,6 @@
+ prdid=102, name=RiceBran oil, price=200.0, category=oils
+ prdid=12, name=Sunflower Oil, price=100.0, category=oils
+ prdid=13, name=Rice , price=24.0, category=grains
+ prdid=1, name=oil, price=280.0, category=oils
+ prdid=99, name=Xyz, price=400.0, category=others
+ prdid=67, Prdname=Palm Oil, price=80.0, category=oils

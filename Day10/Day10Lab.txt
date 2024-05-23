@@ -1,0 +1,19 @@
+1:Create a  menu driven java application for storing Products into file (use List to Strore prds)
+
+Perform read and write operation with file and store data from List in string format.
+
+
+2:Use serialization and deserialization for persisting List<Product> into file.
+Create menu driven applictaion for this.
+
+
+
+
+3:Create a simple java application anf testing database connection and executing simple select query.
+
+
+
+(Revise all from theory session also try lab task mention in theory sessions)
+
+
+
