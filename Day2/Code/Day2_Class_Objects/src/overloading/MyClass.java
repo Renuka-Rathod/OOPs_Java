@@ -7,6 +7,7 @@ public class MyClass {
 		System.out.println("Add(i,j)="+(no1+no2));
 	}
 	
+	
 	public void add2(int i,int j,int k)
 	{
 	System.out.println("add(i,j,k)="+(i+j+k));	
