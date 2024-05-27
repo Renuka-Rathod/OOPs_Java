@@ -17,7 +17,7 @@ public class TestListMenuDriven {
 
 		// get some values in list
 		intList = MyIntValues.getAllNumbers();
-
+		intList.size();
 		Scanner sc = new Scanner(System.in);
 		int ch;
 

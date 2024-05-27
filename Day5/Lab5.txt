@@ -1,6 +1,6 @@
 Lab 5. Coding assignment
 
-5.1 Create a class Point2D ,    : for representing a point in x-y co-ordinate system.
+5.1 Create a class Point2D , : for representing a point in x-y co-ordinate system.
 
 5.2 Create a parameterized constructor to init x & y co-ords.
 
