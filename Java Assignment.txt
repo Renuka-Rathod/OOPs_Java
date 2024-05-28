@@ -1,0 +1,36 @@
+Patern Printing Programm
+1)   1 
+    2 2 
+   3 3 3 
+  4 4 4 4 
+ 5 5 5 5 5 
+6 6 6 6 6 6 
+
+2)==========
+1 
+0 1 
+1 0 1 
+0 1 0 1 
+1 0 1 0 1 
+0 1 0 1 0 1 
+
+3)create Arraaylist of intiger and find its Median.create jar file.
+
+Create bank_emp class with empid,empname,accountno,branchname,salary.Use HashMap to store
+Employee details use empid as key.and perform following operation:
+1)Add data
+2)show all data
+3)sort data
+4)accept key from user and remove record of given key
+5)accept key from user and display data for given key
+6)Create jar file 
+
+
+Create Student class with rollno,name,email,course,Marks.Use Arraylist to store
+Students details.and perform following operation:
+1)Add data
+2)show all data
+3)sort data based on rollno
+4)sort data based on name
+5)sort data based on Marks
+6)Create jar file 
